@@ -1,0 +1,29 @@
+The behavioral group contains the most patterns out of the
+Gang of Four patterns:
+
+ -chain of responsibility(pattern that decouples a request from a handling object in a chain
+  of handlers until it is finally recognized)
+
+ -the command(pattern that lets you encapsulate each request as an object)
+
+ -interpreter(pattern that you use to represent the grammar of a language)
+
+ -iterator(pattern for providing navigation without exposing the structure of an object)
+
+ -mediator(pattern is used to define how objects interact with one another, without having
+  them refer to each other explicitly)
+
+ -memento(used to externalize an object state, usually to provide rollback functionality)
+
+ -observer(pattern is a decoupling pattern when we have a subject that needs to be observed
+  by one or more observers)
+
+ -state(used when we need to represent state in an application)
+
+ -strategy(pattern that is used when you want to enable the strategy or algorithm to be
+  selected at runtime)
+
+ -template method(used to define an algorithm that allows subclasses to redefine parts of the
+ algorithm without changing its structure)
+
+ -the visitor(separate an algorithm from an object structure)
