@@ -16,7 +16,7 @@ Gang of Four patterns:
  -memento(used to externalize an object state, usually to provide rollback functionality)
 
  -observer(pattern is a decoupling pattern when we have a subject that needs to be observed
-  by one or more observers)
+  by one or more observers(listeners))
 
  -state(used when we need to represent state in an application)
 
