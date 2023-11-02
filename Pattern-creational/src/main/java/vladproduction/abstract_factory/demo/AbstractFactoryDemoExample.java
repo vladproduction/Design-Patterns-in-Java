@@ -12,12 +12,13 @@ import java.io.IOException;
 public class AbstractFactoryDemoExample {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
-        String xml = "<document><body><stock>AAPL</stock></body></document>";
-        ByteArrayInputStream bais = new ByteArrayInputStream(xml.getBytes());
+        String xml = "<document><body><stock>APL</stock></body></document>";
+        ByteArrayInputStream baits = new ByteArrayInputStream(xml.getBytes());
+
 
         DocumentBuilderFactory abstractFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder factory = abstractFactory.newDocumentBuilder();
-        Document doc = factory.parse(bais);
+        Document doc = factory.parse(baits);
 
         doc.getDocumentElement().normalize();
 
