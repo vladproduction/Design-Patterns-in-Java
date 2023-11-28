@@ -1,11 +1,10 @@
-package com.vladproduction.tester;
+package com.vladproduction.main;
 
 import com.vladproduction.factory.AbstractFactory;
 import com.vladproduction.factory.AbstractFactoryImpl;
 import com.vladproduction.services.DBIntegrationService;
 import com.vladproduction.services.FileIntegrationService;
 import com.vladproduction.services.StringIntegrationService;
-import com.vladproduction.services.StringIntegrationServiceImpl;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -26,7 +25,8 @@ public class MainApp {
         //----------fileService:
         System.out.println("//----------fileService:");
         FileIntegrationService fileIntegrationService = factory.create(FileIntegrationService.class);
-        fileIntegrationService.getFileNameByPath("C:\\Users\\admin\\Desktop\\HOMEWORK\\test.txt");
+        //fileIntegrationService.getFileNameByPath("absolute path file");
+        fileIntegrationService.getFileNameByPath(".");
 
         //----------dbService:
         System.out.println("//----------dbService:");
@@ -38,7 +38,7 @@ public class MainApp {
         dbIntegrationService.getBookByYearAndAuthor("2023", "John");
         dbIntegrationService.getBookByYearOrAuthor("2021", "Jack");
 
-        //1-check todo
-        //2-need to do tests
+
+
     }
 }
