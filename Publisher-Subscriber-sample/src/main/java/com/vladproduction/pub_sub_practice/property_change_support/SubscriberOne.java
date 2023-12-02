@@ -1,0 +1,25 @@
+package com.vladproduction.pub_sub_practice.property_change_support;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+public class SubscriberOne implements PropertyChangeListener {
+
+
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+        //when something changed this method going to action
+        System.out.println("SubscriberOne");
+
+        //how we can track our events:
+        Object source = evt.getSource();
+        String propertyName = evt.getPropertyName();
+        Object oldValue = evt.getOldValue();
+        Object newValue = evt.getNewValue();
+
+        System.out.println("source = " + source);
+        System.out.println("propertyName = " + propertyName);
+        System.out.println("oldValue = " + oldValue);
+        System.out.println("newValue = " + newValue);
+    }
+}
