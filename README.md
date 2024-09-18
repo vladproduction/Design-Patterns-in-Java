@@ -1,3 +1,3 @@
-# PatternExamples
-This repository is divided into projects according to areas (and types) of patterns.
-Behavioral, Creational, Structural
+# Design-Patterns-in-Java
+**This repository is a collection of projects-examples by Design Patterns in Java;**
+##
