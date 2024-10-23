@@ -1,6 +1,0 @@
-package vladproduction.com.app01;
-
-public interface Singleton {
-
-    void createSingleton();
-}
