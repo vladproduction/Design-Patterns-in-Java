@@ -7,6 +7,7 @@
     <groupId>com.vladproduction</groupId>
     <artifactId>Observer</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <description>Project is presented a few examples of behavioral design pattern - Observer</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
