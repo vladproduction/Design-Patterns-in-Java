@@ -1,0 +1,13 @@
+Consider a file system where files and directories can be represented as objects. In this context:
+
+Component:
+An interface or abstract class defining operations that can be performed on both files and directories, such as display(), getSize(), etc.
+Leaf:
+A File class that implements the Component interface. This class represents individual files, which cannot have children.
+Composite:
+A Directory class that also implements the Component interface. This class can contain both files and other directories.
+
+In this example, both File and Directory can be treated as FileSystemComponent,
+allowing for flexible and uniform handling of file systems.
+Can easily add or remove files and directories without changing the client code that uses them,
+demonstrating the Composite Design Pattern's effectiveness in managing hierarchical structures.
