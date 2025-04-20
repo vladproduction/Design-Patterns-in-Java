@@ -1,0 +1,18 @@
+Command Pattern
+Intent and Problem Statement
+The Command Pattern encapsulates a request as an object, allowing you to parameterize clients with different requests,
+queue or log requests, and support undoable operations. It decouples the object that invokes the operation from the object that knows how to perform it.
+Design Solution
+
+Command: Declares an interface for executing operations
+ConcreteCommand: Implements the Command interface, binding a receiver with an action
+Invoker: Asks the command to carry out the request
+Receiver: Knows how to perform the operations
+Client: Creates and configures ConcreteCommand objects
+
+Real-World Examples
+
+Remote Controls: Each button represents a command that can be executed.
+GUI Buttons: Click events are encapsulated as command objects.
+Transactional Systems: Database operations can be encapsulated as commands to support rollback functionality.
+Text Editors: Undo/redo operations can be implemented using the command pattern.

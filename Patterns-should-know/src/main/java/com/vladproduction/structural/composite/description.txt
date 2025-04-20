@@ -1,0 +1,7 @@
+Composite Pattern
+Intent
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+Problem
+Need to treat individual objects and compositions of objects in the same way.
+Solution
+Define a unified component interface and implement it for leaf objects and composites.

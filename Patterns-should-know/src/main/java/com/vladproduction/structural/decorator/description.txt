@@ -1,0 +1,6 @@
+Intent
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+Problem
+Need to add functionality to individual objects rather than an entire class, and want to avoid a class hierarchy explosion.
+Solution
+Place a target object inside a wrapper object that adds new behavior. Multiple decorators can be stacked to add multiple behaviors.

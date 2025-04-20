@@ -1,0 +1,7 @@
+Adapter Pattern
+Intent
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+Problem
+You have an existing class with a useful functionality, but its interface isn't compatible with the rest of your code.
+Solution
+Create an adapter class that converts one interface to another.

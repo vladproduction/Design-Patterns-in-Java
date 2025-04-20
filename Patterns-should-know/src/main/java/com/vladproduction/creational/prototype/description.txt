@@ -1,0 +1,7 @@
+Prototype Pattern
+Intent
+Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+Problem
+How to create exact copies of objects without coupling your code to their classes?
+Solution
+Create a prototype interface that declares a method for cloning itself, and implement it in all classes that need this functionality.

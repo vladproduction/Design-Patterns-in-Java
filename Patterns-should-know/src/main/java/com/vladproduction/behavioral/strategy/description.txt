@@ -1,0 +1,14 @@
+Strategy Pattern
+Intent and Problem Statement
+The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from clients that use it, allowing you to select an algorithm at runtime.
+Design Solution
+
+Strategy: Declares an interface common to all supported algorithms
+ConcreteStrategy: Implements the algorithm using the Strategy interface
+Context: Maintains a reference to a Strategy object and delegates it to execute the algorithm
+
+Real-World Examples
+
+Payment Processing: E-commerce platforms implement different payment methods.
+Sorting Algorithms: Applications can choose different sorting algorithms based on data characteristics.
+Compression Strategies: File compression software can use different compression algorithms depending on file type.

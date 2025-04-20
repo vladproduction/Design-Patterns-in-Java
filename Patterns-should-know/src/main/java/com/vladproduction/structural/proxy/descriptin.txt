@@ -1,0 +1,10 @@
+## Proxy Pattern
+
+### Intent
+Provide a surrogate or placeholder for another object to control access to it.
+
+### Problem
+You need to control access to an object, or you need to delay the creation and initialization of an expensive object until it's needed.
+
+### Solution
+Create a proxy object that acts as an intermediary between clients and the real object.

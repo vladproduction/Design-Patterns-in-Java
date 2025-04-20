@@ -1,0 +1,14 @@
+Template Method Pattern
+Intent and Problem Statement
+The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+It lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+Design Solution
+
+AbstractClass: Defines the template method which contains the algorithm's skeleton and calls abstract or hook methods
+ConcreteClass: Implements the abstract methods to fill in the specific steps of the algorithm
+
+Real-World Examples
+
+Frameworks: Web frameworks use template methods to define processing pipelines for requests.
+Data Processing: ETL (Extract, Transform, Load) operations follow a template with customizable steps.
+Document Generation: Report generators define a template for creating documents with customizable sections.

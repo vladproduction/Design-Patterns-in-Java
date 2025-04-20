@@ -1,0 +1,7 @@
+Builder Pattern
+Intent
+Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+Problem
+How to create a complex object step by step and still get different types of objects?
+Solution
+Extract the object construction code out of its own class and move it to separate objects called builders.

@@ -1,0 +1,7 @@
+Abstract Factory Pattern
+Intent
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+Problem
+How to create a family of related objects without depending on their concrete classes?
+Solution
+Define an abstract factory interface that creates abstract products, and implement concrete factories that create concrete products.

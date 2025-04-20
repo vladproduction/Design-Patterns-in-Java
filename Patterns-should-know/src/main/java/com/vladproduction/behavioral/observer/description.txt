@@ -1,0 +1,17 @@
+Observer Pattern
+Intent and Problem Statement
+The Observer Pattern establishes a one-to-many dependency between objects,
+ensuring that when one object (the subject) changes state, all its dependents (observers) are notified and updated automatically.
+This pattern is useful when changes to one object require changing others, and you don't know how many objects need to change.
+Design Solution
+
+Subject: Maintains a list of observers and provides methods to add or remove observers
+Observer: Defines an update interface for objects that should be notified of changes
+ConcreteSubject: Stores state and sends notifications to observers when state changes
+ConcreteObserver: Maintains a reference to the subject and implements the update interface
+
+Real-World Examples
+
+Event Management Systems: GUI frameworks use this pattern where UI elements (subjects) notify listeners (observers) about clicks or other events.
+Social Media Notifications: When users post content, their followers (observers) receive notifications.
+Stock Market Applications: Investors (observers) subscribe to receive updates when stock prices (subjects) change.

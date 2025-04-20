@@ -1,0 +1,7 @@
+Bridge Pattern
+Intent
+Decouple an abstraction from its implementation so that the two can vary independently.
+Problem
+Having a class hierarchy with multiple dimensions of variation, which leads to an explosion of subclasses.
+Solution
+Split the large class into separate class hierarchies—abstraction and implementation—connected by a bridge.

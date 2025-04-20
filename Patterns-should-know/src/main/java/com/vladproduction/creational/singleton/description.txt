@@ -1,0 +1,7 @@
+Singleton Pattern
+Intent
+Ensure a class has only one instance and provide a global point of access to it.
+Problem
+Sometimes we need exactly one instance of a class that is accessible from multiple points in our application, like a database connection or a configuration manager.
+Solution
+Make the constructor private and provide a static method that returns the single instance.

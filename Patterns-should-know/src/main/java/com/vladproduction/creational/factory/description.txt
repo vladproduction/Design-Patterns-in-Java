@@ -1,0 +1,7 @@
+Factory Method Pattern
+Intent
+Define an interface for creating an object, but let subclasses decide which class to instantiate.
+Problem
+Creating objects without exposing the instantiation logic to the client, and allowing subclasses to provide their own implementations.
+Solution
+Define a separate method for creating objects, and let subclasses override it to specify the derived type of product that will be created.

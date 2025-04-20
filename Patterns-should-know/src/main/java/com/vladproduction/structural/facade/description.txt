@@ -1,0 +1,7 @@
+Facade Pattern
+Intent
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+Problem
+A complex system with many components and interactions makes it difficult for clients to work with directly.
+Solution
+Create a simplified interface that performs many complex operations behind the scenes.

@@ -1,0 +1,15 @@
+Iterator Pattern
+Intent and Problem Statement
+The Iterator Pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying representation. It separates the traversal behavior from the collection, allowing different traversals of the same collection.
+Design Solution
+
+Iterator: Defines an interface for accessing and traversing elements
+ConcreteIterator: Implements the Iterator interface
+Aggregate: Defines an interface for creating an Iterator
+ConcreteAggregate: Implements the Aggregate interface and returns a ConcreteIterator
+
+Real-World Examples
+
+Collection Libraries: Java Collections Framework uses iterators to traverse through different collection types.
+Database Access: Result sets provide iterators to loop through query results.
+File Systems: Directory traversal uses iterators to walk through file hierarchies.

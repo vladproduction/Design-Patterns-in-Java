@@ -1,0 +1,16 @@
+State Pattern
+Intent and Problem Statement
+The State Pattern allows an object to alter its behavior when its internal state changes.
+The object will appear to change its class, as it can have different behaviors for different states without using large conditional statements.
+Design Solution
+
+Context: Maintains an instance of a ConcreteState that defines the current state
+State: Defines an interface for the behavior associated with a state
+ConcreteState: Implements the behavior associated with a state
+
+Real-World Examples
+
+Order Processing: Orders transition through different states (created, paid, shipped, delivered).
+Media Players: Players change behavior based on states like playing, paused, or stopped.
+Workflow Systems: Documents in approval workflows change their behavior based on current status.
+Vending Machines: Different responses based on states like "has coins," "item selected," or "dispensing."
